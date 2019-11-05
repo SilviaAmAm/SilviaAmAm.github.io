@@ -1,1 +1,10 @@
+title: Stories from a PhD in computational chemistry
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+  A random collection of topics that I have found interesting or useful at some point during the time of my PhD and after.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://silviaamam.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: samabilino
+github_username: silviaamam
+
 theme: jekyll-theme-cayman
