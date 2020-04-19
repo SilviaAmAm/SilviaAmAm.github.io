@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Are the trains actually always late?"
+date:   2020-04-19 15:13:11 +0100
+categories: Random
+mathjax: true
+---
+
+In the last few years, I was taking trains pretty regularly. I'm talking about a-few-times-a-week kind of regularly. I started hearing myself complain about delays all the time, maybe as often as I complained about my PhD. Okay.. maybe not quite that much.
+
+Was my dissatisfaction justified, or was my perception just distorted by a few incidents?
+
+To find out, for 9 months I recoreded some data everytime I took the train. I noted the scheduled departure time, the actual departure time, the scheduled arrival and the actual arrival time.
+I gathered about 120 data points. Here is what I learnt from this little experiment.
+
+
+<p align="center"><img src="/images/uk_trains/unified_histograms.png" width="700"></p>
+
+The plot above shows the difference between when the train was meant to depart/arrive and when it actually departed/arrived. It seems that most trains departed on time, and rarely with more than 10 minutes delay. Not too bad, actually. With arrival times there is a wider distribution, as you would expect. Often trains arrive early and only about 10% of my journeys were delayed by more than 10 min. I arrived to my destination _really_ late only a couple of times.
+
+How do morning journeys compare to evening journeys?
+
+<p align="center"><img src="/images/uk_trains/unified_delta.png" width="800"></p>
+
+From this data, it doesn't look like there is a considerable difference between the two. There are a couple of late outliers, but since there are only 4 journeys that arrived more than 20 min late, I can't really comment on the morning vs evening difference. 
+
+All in all, one conclusion is expected: I need more data. The other conclusion is, more surprisingly, that I probably shouldn't have complained that much! 
