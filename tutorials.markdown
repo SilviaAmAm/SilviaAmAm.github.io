@@ -22,7 +22,7 @@ This is a collection of tutorials that I found really useful when I started lear
 
 [LiveOverflow](https://old.liveoverflow.com/binary_hacking/index.html)
 
-## Booting from GRUBS
+## Booting from GRUB
 
 [How to Rescue a Non-booting GRUB 2 on Linux](https://www.linux.com/training-tutorials/how-rescue-non-booting-grub-2-linux/)
 
