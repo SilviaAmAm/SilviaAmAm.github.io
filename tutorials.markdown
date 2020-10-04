@@ -26,3 +26,8 @@ This is a collection of tutorials that I found really useful when I started lear
 
 [How to Rescue a Non-booting GRUB 2 on Linux](https://www.linux.com/training-tutorials/how-rescue-non-booting-grub-2-linux/)
 
+## RSA algorithm
+
+[Example of how to encrypt/decrypt messages starting from 2 prime numbers](https://www.cryptool.org/en/cto-highlights/rsa-step-by-step)
+
+[How does RSA work](https://hackernoon.com/how-does-rsa-work-f44918df914b)
