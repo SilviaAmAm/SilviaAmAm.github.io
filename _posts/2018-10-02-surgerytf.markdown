@@ -6,9 +6,10 @@ categories: TensorFlow
 mathjax: true
 ---
 
-<p align="center"><img src="/images/surgerytf_images/surgery_tf.png" width="250"></p>
 
 This short post shows how to replace some operations in a TensorFlow graph that has been reloaded from a `.pb` file. This is actually quite simple to do, but all the tutorials that I found when I needed to do this were for older versions of TensorFlow, so it took me longer than it should have. 
+
+<p align="center"><img src="/images/surgerytf_images/surgery_tf.png" width="250"></p>
 
 First of all, let's create a toy graph and save it to a `.pb` file.
 
