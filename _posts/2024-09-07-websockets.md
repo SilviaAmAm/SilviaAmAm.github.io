@@ -69,7 +69,7 @@ For this reason, the Asynchronous Server Gateway Interface (ASGI) standard was i
 
 An ASGI compatible application is an asynchronous program that takes a "scope" (details about the connection), a callable to send messages and a callable to receive messages.
 
-This is an example of an ASGI application [[[7](https://asgi.readthedocs.io/en/latest/introduction.html)]:
+This is an example of an ASGI application [[7](https://asgi.readthedocs.io/en/latest/introduction.html)]:
 
 ```python 
 async def application(scope, receive, send):
