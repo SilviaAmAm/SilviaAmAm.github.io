@@ -39,7 +39,7 @@ It is different from HTTP, but it was designed to work over HTTP ports 443 and 8
 
 The image below shows the process of opening a WebSocket connection between a client and a server.
 
-<p align="center"><img src="/images/websockets/websockets.png" width="700"></p>
+<p align="center"><img src="/images/websockets/Websockets.png" width="700"></p>
 
 While the connection is open, both the client and the server can send messages to each other.
 
