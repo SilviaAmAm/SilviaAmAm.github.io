@@ -82,7 +82,7 @@ The two main differences with the WSGI application are the fact that it is an as
 
 ## Django Channels
 
-Django applications are WSGI compatible, but not ASGI compatible. Therefore, the Django Channels project was started. [[8](https://test-channels.readthedocs.io/en/latest/)] Django Channels aims to make Django ASGI compatible so that, among other things, it can handle WebSocket connections. It was designed to be compatible with "normal" Django, so that standard WSGI applications keep working.
+Django applications are WSGI compatible, but not ASGI compatible. Therefore, the Django Channels project was started. [[8](https://test-channels.readthedocs.io/en/latest/)] Django Channels aims to make Django ASGI compatible so that, among other things, it can handle WebSocket connections. It was designed to be compatible with "normal" Django in order to keep WSGI applications working.
 
 Django works by taking an incoming request and routing it down to the right `View` which handles the request and produces a response.
 
@@ -163,6 +163,11 @@ Here is a diagram showing which containers could be used to deploy an applicatio
 <p align="center"><img src="/images/websockets/Containers_8.png" width="700"></p>
 
 For a toy project putting these concepts together, you can look [here](https://github.com/SilviaAmAm/websocket-experiment). 
+
+In this toy project, there is a "counter" model and there is a simple API to retrieve the value of the counter and increment it. Then, there are two pages (simulating a 'frontend') one of which displays the value of the counter and one with a button to increment the counter. 
+
+The page that displays the counter also opens a WebSocket connection with the backend, so whenever the button is pressed in the other page, the value is updated without needing to refresh.
+You see this in action by running the docker compose and going to `http://localhost:9000/counter/` and `http://localhost:9000/increment/`.
 
 # Conclusion
 
