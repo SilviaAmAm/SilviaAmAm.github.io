@@ -11,11 +11,11 @@ Here is how I managed to export PDFs with hand-written annotations from the NeoR
 1. Tap in the center of the screen. This opens up this menu.
 2. Click on the **More** icon.
 
-<p align="center"><img src="/images/boox/step1.png" width="700"></p>
+   <p align="center"><img src="/images/boox/step1.png" height="700"></p>
 
 3. Click on **Embed data**. This embeds the annotations into the PDF.
 
-<p align="center"><img src="/images/boox/step2.png" width="700"></p>
+   <p align="center"><img src="/images/boox/step2.png" height="700"></p>
 
 4. Export the PDF either by clicking on **More** > **Share** or via Boox drop.
 
